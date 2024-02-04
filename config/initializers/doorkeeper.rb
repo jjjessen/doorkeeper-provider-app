@@ -289,6 +289,9 @@ Doorkeeper.configure do
   #       .find_by(controller.request.params.slice(:redirect_uri))
   #       .logout_uri
   # end
+  skip_authorization do
+    true
+  end
 
   # Under some circumstances you might want to have applications auto-approved,
   # so that the user skips the authorization step.
