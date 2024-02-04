@@ -5,3 +5,5 @@ tmp/
 .sass-cache/
 spec/examples.txt
 .idea/
+
+/config/master.key
